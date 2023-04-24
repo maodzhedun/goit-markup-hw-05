@@ -142,6 +142,7 @@ ul {
   color: var(--secondary-bg-color);
   font-style: normal;
   font-weight: 500;
+  transition: color var(--animation-base);
 }
 
 .site-nav .link:hover,
@@ -152,12 +153,13 @@ ul {
 .site-cont .link {
   color: var(--body-text-color);
   font-style: normal;
+  transition: color var(--animation-base);
 }
 
 .site-cont .link:hover,
 .site-cont .link:focus {
   color: var(--action-color);
-}
+  }
 
 .site-cont {
   font-style: normal;
@@ -180,7 +182,7 @@ ul {
   border-radius: 2px;
 
   transform: scaleX(0);
-  transition: var(--animation-base);
+  transition: color var(--animation-base);
 }
 
 .header-link.active {
@@ -247,6 +249,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  transition: color var(--animation-base);
 }
 
 .hero-button:hover,
@@ -401,6 +404,7 @@ ul {
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
   color: var(--subtle-text-color);
+  transition: color var(--animation-base), background-color var(--animation-base), border-color var(--animation-base) ;
 }
 
 .clients-link:hover,
@@ -438,6 +442,7 @@ ul {
   fill: var(--light-bg-color);
   background-color: var(--primary-brand-color);
   border-radius: 50%;
+  transition: background-color var(--animation-base);
 }
 
 .socials-link:hover,
@@ -455,6 +460,7 @@ ul {
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   background-color: var(--light-bg-color);
+  transition: color var(--animation-base), background-color var(--animation-base);
 }
 
 /* action filter */
@@ -491,6 +497,8 @@ ul {
 
 .card-link {
   display: block;
+  transition: box-shadow var(--animation-base);
+
 }
 
 .card-link:hover,
@@ -574,7 +582,7 @@ ul {
 /* Section Portfolio */
 
 /* Section button */
-
+  
 .portfolio-main {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -595,6 +603,7 @@ ul {
   padding: 12px 24px;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
+  transition: box-shadow var(--animation-base), border var(--animation-base);
 }
 
 .in-btn:hover,
@@ -621,6 +630,7 @@ ul {
 
 .card-item {
   flex-basis: calc((100% - 48px) / 3);
+  transition: box-shadow var(--animation-base);
 }
 
 .card-item:hover,
