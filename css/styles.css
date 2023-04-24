@@ -34,8 +34,8 @@ body {
 /* container */
 
 .container {
-  width: 100%;
-  max-width: 1158px;
+  /* width: 100%; */
+  width: 1158px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -174,7 +174,7 @@ ul {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2px;
 
   display: block;
   width: 100%;
