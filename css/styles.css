@@ -249,7 +249,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  transition: color var(--animation-base);
+  transition: background-color var(--animation-base);
 }
 
 .hero-button:hover,
@@ -400,17 +400,15 @@ ul {
   width: 168px;
   height: 88px;
 
-  /* color: var(--subtle-text-color); */
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
   color: var(--subtle-text-color);
-  transition: color var(--animation-base), background-color var(--animation-base), border-color var(--animation-base) ;
+  transition: color var(--animation-base), border-color var(--animation-base) ;
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--action-color);
-  background-color: var(--primary-bg-color);
   color: var(--action-color);
 }
 
@@ -452,7 +450,7 @@ ul {
 
 /* Section button */
 
-.button {
+/* .button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -461,11 +459,11 @@ ul {
   color: var(--primary-brand-color);
   background-color: var(--light-bg-color);
   transition: color var(--animation-base), background-color var(--animation-base);
-}
+} */
 
 /* action filter */
 
-.button:hover,
+/* .button:hover,
 .button:focus {
   font-family: inherit;
   font-weight: 500;
@@ -476,7 +474,7 @@ ul {
   color: var(--primary-bg-color);
   cursor: pointer;
   background-color: var(--action-color);
-}
+} */
 
 /* Section card */
 
@@ -603,7 +601,19 @@ ul {
   padding: 12px 24px;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  transition: box-shadow var(--animation-base), border var(--animation-base);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  align-items: center;
+
+  color: var(--primary-brand-color);
+  background-color: var(--light-bg-color);
+  transition: color var(--animation-base), background-color var(--animation-base),
+  box-shadow var(--animation-base), border var(--animation-base);
 }
 
 .in-btn:hover,
@@ -611,6 +621,8 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid transparent;
+  color: var(--primary-bg-color);
+  background-color: var(--action-color);
 }
 
 .card-wrapper {
